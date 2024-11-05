@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/purple_500"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:descendantFocusability="blocksDescendants">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:text="Latest News"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/linear1">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/img1" />
+
+            <TextView
+                android:id="@+id/headline1"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:text="Harry Kane to leave Tottenham and join Manchester City?"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linear3">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="275dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/img3" />
+
+        <TextView
+            android:id="@+id/headline2"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="Barcelona capable of winning every game left, says Koeman"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linear2">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/img2" />
+
+            <TextView
+                android:id="@+id/headline3"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:text="How will the Premier League table look like at the end of the season?"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

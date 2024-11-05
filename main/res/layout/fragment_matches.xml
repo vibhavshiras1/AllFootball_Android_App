@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6923BF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:descendantFocusability="blocksDescendants">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Recent Results"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/img4" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:text="Premier League"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/img5"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="23dp"
+                android:text="Man City            2"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/img7"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="23dp"
+                android:text="Leicester City   0"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/img8"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="23dp"
+                android:text="Liverpool           3"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/img9"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="23dp"
+                android:text="Arsenal              0"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                app:srcCompat="@drawable/img10" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="40dp"
+                android:text="La Liga"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/img11"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="23dp"
+                android:text="Sevilla                   1"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/img12_1"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="23dp"
+                android:text="Atletico Madrid   0"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/img13"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="23dp"
+                android:text="Barcelona             1"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/img14"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="23dp"
+                android:text="Valladolid             0"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                app:srcCompat="@drawable/img15" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="40dp"
+                android:text="Bundesliga"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/img16"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="23dp"
+                android:text="Borussia Dortmund             1"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/img17"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="23dp"
+                android:text="Eintracht Frankfurt              2"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/img18"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="23dp"
+                android:text="RB Leipzig                  0"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/img19"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="23dp"
+                android:text="Bayern Munich          1"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                app:srcCompat="@drawable/img20" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="40dp"
+                android:text="Champions League"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/img21"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="23dp"
+                android:text="Real Madrid             3"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/img8"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="23dp"
+                android:text="Liverpool                  1"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/img25"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="23dp"
+                android:text="Paris Saint-Germain           3"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/img19"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="23dp"
+                android:text="Bayern Munich                    2"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="50dp"></TextView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

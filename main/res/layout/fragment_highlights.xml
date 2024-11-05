@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:descendantFocusability="blocksDescendants">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <VideoView
+                android:id="@+id/video_View1"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginTop="30dp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:text="Liverpool v Arsenal"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <VideoView
+                android:id="@+id/video_View2"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginTop="30dp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:text="Man City v Leicester"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"></TextView>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
